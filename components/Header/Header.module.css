@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+}
+
+.container > img {
+    height: 30px;
+    padding: 0px 0px 0px 20px;
+}
+
+.header_btn {
+    display: flex;
+    gap: 30px;
+    padding: 0px 20px 0px 0px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-light);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.link:hover {
+    transform: translateY(-3px);
+    color: var(--color-detail);
+}
