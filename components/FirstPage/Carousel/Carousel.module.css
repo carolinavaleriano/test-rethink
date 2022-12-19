@@ -17,7 +17,7 @@
     position: absolute;
     top: 50%;
     right: 32px;
-    font-size: 3rem;
+    font-size: 50px;
     color: var(--color-gray);
     z-index: 10;
     cursor: pointer;
@@ -28,11 +28,15 @@
     position: absolute;
     top: 50%;
     left: 32px;
-    font-size: 3rem;
+    font-size: 50px;
     color: var(--color-gray);
     z-index: 10;
     cursor: pointer;
     user-select: none;
+}
+
+.right_arrow:hover, .left_arrow:hover {
+    color: var(--color-detail);
 }
 
 .slide {
