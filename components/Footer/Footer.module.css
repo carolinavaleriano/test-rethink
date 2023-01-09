@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    background: var(--color-button-opacity-dark);
+    border-top: 1px solid var(--color-detail);
 }
 
 .container > span {
