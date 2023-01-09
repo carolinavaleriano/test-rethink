@@ -1,0 +1,24 @@
+.btn, .btn :active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+    background-color: var(--color-gray);
+    cursor: pointer;
+}
+
+.btn {
+    border: none;
+    background-color: var(--color-gray);
+}
+
+.btn :active {
+    background-color: var(--color-detail);
+    border: 3px solid var(--color-dark);
+}

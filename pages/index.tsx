@@ -1,3 +1,4 @@
+import BackToTop from "../components/BackToTop/BackToTop";
 import FirstPage from "../components/FirstPage/FirstPage";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
@@ -15,6 +16,7 @@ export default function Home() {
       {/* <FourthPage />
       <FifthPage /> */}
       <Footer />
+      <BackToTop />
     </div>
   );
 }
