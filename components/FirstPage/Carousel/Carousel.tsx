@@ -39,8 +39,16 @@ const Carousel = ({ slides }: { slides: any }) => {
 
   return (
     <div className={styles.slider}>
-      <ArrowCircleLeft className={styles.left_arrow} onClick={prevSlide} />
-      <ArrowCircleRight className={styles.right_arrow} onClick={nextSlide} />
+      <ArrowCircleLeft
+        sx={{ fontSize: 50 }}
+        className={styles.left_arrow}
+        onClick={prevSlide}
+      />
+      <ArrowCircleRight
+        sx={{ fontSize: 50 }}
+        className={styles.right_arrow}
+        onClick={nextSlide}
+      />
       {sliderData.map((slide, index) => {
         return (
           <div
