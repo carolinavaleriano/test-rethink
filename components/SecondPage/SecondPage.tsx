@@ -4,7 +4,7 @@ import Card from "./Card/Card";
 
 function SecondPage() {
   return (
-    <div className={styles.container}>
+    <div id="secondpage" className={styles.container}>
       <div className={styles.text}>
         <h1>Por dentro do Rethink Academy:</h1>
         <h4>Mais que um programa de estágio</h4>

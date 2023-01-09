@@ -3,7 +3,7 @@ import styles from "./ThirdPage.module.css";
 
 function ThirdPage() {
   return (
-    <div className={styles.container}>
+    <div id="thirdpage" className={styles.container}>
       <div className={styles.title}>
         <h1>Projetos</h1>
         <p>

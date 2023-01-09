@@ -4,7 +4,7 @@ import Carousel, { sliderData } from "./Carousel/Carousel";
 
 function FirstPage() {
   return (
-    <div className={styles.container}>
+    <div id="firstpage" className={styles.container}>
       <div className={styles.left}>
         <div className={styles.title}>
           <h1>Rethink</h1>
