@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 700px;
+    background-color: var(--color-detail);
+    gap: 60px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 35px;
+}
+
+.text > h1 {
+    font-size: 40px;
+    color: var(--color-dark);
+}
+
+.text > h4 {
+    color: var(--color-dark);
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
